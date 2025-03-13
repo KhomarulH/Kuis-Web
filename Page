@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khomarul Hidayat</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #35a417, #0d1388);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .button {
+            background: white;
+            color: #0b0b0b;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px 0;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 200px;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .social-icons img {
+            width: 30px; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://assets.onecompiler.app/43286b38v/439msprn2/messi.jpeg" alt="Profile Image" class="profile-image">
+        <div class="name">Khomarul Hidayat</div>
+        <button class="button">Join </button><br>
+        <button class="button">Work at Linktree</button><br>
+        <button class="button">Bolster</button><br>
+        <button class="button">LNWY</button><br>
+        <button class="button">Linktree</button><br>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourprofile" target="_blank"><img src="c:\Users\Hidayat\OneDrive\Pictures\unnamed.png" alt="Facebook"></a>
+            <a href="https://www.Spotify.com/yourprofile" target="_blank"><img src="c:\Users\Hidayat\OneDrive\Pictures\th (1).jpg" alt="Spotify"></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><img src="c:\Users\Hidayat\OneDrive\Pictures\Logo twitter.webp" alt="Twitter"></a>
+            <a href="https://www.Youtube.com/in/yourprofile" target="_blank"><img src="c:\Users\Hidayat\OneDrive\Pictures\Logo YT.jpg" alt="Youtube"></a>
+        </div>
+    </div>
+</body>
+</html>
