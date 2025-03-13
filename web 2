@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #707070;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #19a317;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.quote {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #000000;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Jadwal Pelajaran</h1>  
+    <table>
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Mata Pelajaran</th>
+                <th>Waktu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td>PAI</td>
+                <td>11.00 - 12.00</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>Algoritma</td>
+                <td>12.00 - 15.30</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>TIK</td>
+                <td>07.00 - 09.15</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>Bahasa Lampung</td>
+                <td>08.00 - 10.15</td>
+            </tr>
+            <tr>
+                <td>Jum'at</td>
+                <td>Penjaskes</td>
+                <td>10.00 - 14.00</td>
+            </tr>  
+            
+    
+        </tbody>
+    </table>
+    <div class="quote">
+        "PEROLEH ILMU DENGAN SUNGGUH-SUNGGUH AGAR BISA MEMBERI KEBERMANFAAT BAGI BANYAK ORANG"
+    </div>
+</div>
+
+</body>
+</html>
